@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
 
@@ -27,10 +28,19 @@ public class GameController {
         stage.show();
     }
 
+    public Button B0 = null;
+    public Button B1 = null;
+    public Button B2 = null;
+    public Button B3 = null;
+    public Button B4 = null;
+    public Button B5 = null;
+    public Button B6 = null;
+    public Button B7 = null;
+    public Button B8 = null;
+
     @FXML
     protected void onB0ButtonClick(ActionEvent actionEvent) {
-
-
+        B0.setText("O");
     }
 
     @FXML
