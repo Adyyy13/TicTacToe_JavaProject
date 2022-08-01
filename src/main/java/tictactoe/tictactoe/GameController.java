@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class GameController {
+public class GameController extends Engine {
 
     @FXML
     private Stage stage;
@@ -53,7 +53,6 @@ public class GameController {
         }
 
         B0.setDisable(true);
-
 
     }
 
