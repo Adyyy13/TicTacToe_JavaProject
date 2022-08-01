@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Slider;
 import javafx.stage.Stage;
 
 
@@ -27,6 +28,9 @@ public class GameController {
         stage.setScene(scene);
         stage.show();
     }
+
+    public Slider slider = null;
+
 
     public Button B0 = null;
     public Button B1 = null;
