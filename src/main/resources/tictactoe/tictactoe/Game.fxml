@@ -24,43 +24,43 @@
      </rowConstraints>
       <children>
 
-          <Button id="B0" mnemonicParsing="false" text="" GridPane.rowIndex="0" GridPane.columnIndex="0"
+          <Button id="B0"  text="" GridPane.rowIndex="0" GridPane.columnIndex="0"
                 maxWidth="90" prefWidth="90" minWidth="10"
                 maxHeight="90" prefHeight="90" minHeight="10"
                   onAction="#onB0ButtonClick"/>
-         <Button id="B1" mnemonicParsing="false" text="" GridPane.rowIndex="0" GridPane.columnIndex="1"
+         <Button id="B1"  text="" GridPane.rowIndex="0" GridPane.columnIndex="1"
                  maxWidth="90" prefWidth="90" minWidth="10"
                  maxHeight="90" prefHeight="90" minHeight="10"
                  onAction="#onB1ButtonClick"/>
-         <Button id="B2" mnemonicParsing="false" text="" GridPane.rowIndex="0" GridPane.columnIndex="2"
+         <Button id="B2"  text="" GridPane.rowIndex="0" GridPane.columnIndex="2"
                  maxWidth="90" prefWidth="90" minWidth="10"
                  maxHeight="90" prefHeight="90" minHeight="10"
                  onAction="#onB2ButtonClick"/>
-         <Button id="B3" mnemonicParsing="false" text="" GridPane.rowIndex="1" GridPane.columnIndex="0"
+         <Button id="B3"  text="" GridPane.rowIndex="1" GridPane.columnIndex="0"
                  maxWidth="90" prefWidth="90" minWidth="10"
                  maxHeight="90" prefHeight="90" minHeight="10"
                  onAction="#onB3ButtonClick"/>
-         <Button id="B4" mnemonicParsing="false" text="" GridPane.rowIndex="1" GridPane.columnIndex="1"
+         <Button id="B4"  text="" GridPane.rowIndex="1" GridPane.columnIndex="1"
                  maxWidth="90" prefWidth="90" minWidth="10"
                  maxHeight="90" prefHeight="90" minHeight="10"
                  onAction="#onB4ButtonClick"/>
-         <Button id="B5" mnemonicParsing="false" text="" GridPane.rowIndex="1" GridPane.columnIndex="2"
+         <Button id="B5"  text="" GridPane.rowIndex="1" GridPane.columnIndex="2"
                  maxWidth="90" prefWidth="90" minWidth="10"
                  maxHeight="90" prefHeight="90" minHeight="10"
                  onAction="#onB5ButtonClick"/>
-         <Button id="B6" mnemonicParsing="false" text="" GridPane.rowIndex="2" GridPane.columnIndex="0"
+         <Button id="B6"  text="" GridPane.rowIndex="2" GridPane.columnIndex="0"
                  maxWidth="90" prefWidth="90" minWidth="10"
                  maxHeight="90" prefHeight="90" minHeight="10"
                  onAction="#onB6ButtonClick"/>
-         <Button id="B7" mnemonicParsing="false" text="" GridPane.rowIndex="2" GridPane.columnIndex="1"
+         <Button id="B7"  text="" GridPane.rowIndex="2" GridPane.columnIndex="1"
                  maxWidth="90" prefWidth="90" minWidth="10"
                  maxHeight="90" prefHeight="90" minHeight="10"
                  onAction="#onB7ButtonClick"/>
-         <Button id="B8" mnemonicParsing="false" text="" GridPane.rowIndex="2" GridPane.columnIndex="2"
+         <Button id="B8"  text="" GridPane.rowIndex="2" GridPane.columnIndex="2"
                  maxWidth="90" prefWidth="90" minWidth="10"
                  maxHeight="90" prefHeight="90" minHeight="10"
                  onAction="#onB8ButtonClick"/>
       </children>
    </GridPane>
-   <Button mnemonicParsing="false" onAction="#onBackButtonClick" text="Back to Main Menu" />
+   <Button onAction="#onBackButtonClick" text="Back to Main Menu" />
 </VBox>
