@@ -6,11 +6,12 @@ public class Engine {
 
 
         protected static String[] board = new String[9];
-        int drawCheck = 0;
-        String line = null;
+
+
+
 
         public String gameStateCheck() {
-
+                String line = null;
 
                 for (int i = 0; i < 8; i++) {
 
@@ -32,19 +33,21 @@ public class Engine {
                         }
                 }
 
-
+                int drawCheck = 0;
 
                 for (int i = 0; i < 9; i++) {
 
+                        if (board[i] != null) {
                         if (board[i].equals("X") || board[i].equals("O")) {
                                 drawCheck++;
                                 if (drawCheck == 9) {
                                         return "draw";
                                 }
                         }
+                        }
                 }
 
-                return "null";
+                return "ZZZZZZZZZ";
 
         }
 }

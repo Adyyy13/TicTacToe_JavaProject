@@ -24,8 +24,6 @@ public class GameController extends Engine {
         stage.setScene(scene);
         stage.show();
 
-        drawCheck = 0;
-        line = null;
 
     }
 
@@ -42,6 +40,16 @@ public class GameController extends Engine {
     public Button B7 = null;
     public Button B8 = null;
 
+    public void gameStateInfo() {
+        if (gameStateCheck().equals("X")) {
+            info.setText("!!! X WON !!!");
+        } else if (gameStateCheck().equals("O")) {
+            info.setText("!!! O WON !!!");
+        }
+        else if (gameStateCheck().equals("draw")) {
+            info.setText("!!! IT'S DRAW !!!");
+        }
+    }
     @FXML
     protected void onB0ButtonClick() {
         if (slider.getValue() == 0.0) {
@@ -56,14 +64,7 @@ public class GameController extends Engine {
 
         B0.setDisable(true);
 
-        if (gameStateCheck().equals("X")) {
-            info.setText("!!! X WON !!!");
-        } else if (gameStateCheck().equals("O")) {
-            info.setText("!!! O WON !!!");
-        }
-        else if (gameStateCheck().equals("draw")) {
-            info.setText("!!! IT'S DRAW !!!");
-        }
+     gameStateInfo();
 
     }
 
@@ -81,14 +82,7 @@ public class GameController extends Engine {
 
         B1.setDisable(true);
 
-        if (gameStateCheck().equals("X")) {
-            info.setText("!!! X WON !!!");
-        } else if (gameStateCheck().equals("O")) {
-            info.setText("!!! O WON !!!");
-        }
-        else if (gameStateCheck().equals("draw")) {
-            info.setText("!!! IT'S DRAW !!!");
-        }
+        gameStateInfo();
     }
 
     @FXML
@@ -105,14 +99,7 @@ public class GameController extends Engine {
 
         B2.setDisable(true);
 
-        if (gameStateCheck().equals("X")) {
-            info.setText("!!! X WON !!!");
-        } else if (gameStateCheck().equals("O")) {
-            info.setText("!!! O WON !!!");
-        }
-        else if (gameStateCheck().equals("draw")) {
-            info.setText("!!! IT'S DRAW !!!");
-        }
+        gameStateInfo();
     }
 
     @FXML
@@ -129,14 +116,7 @@ public class GameController extends Engine {
 
         B3.setDisable(true);
 
-        if (gameStateCheck().equals("X")) {
-            info.setText("!!! X WON !!!");
-        } else if (gameStateCheck().equals("O")) {
-            info.setText("!!! O WON !!!");
-        }
-        else if (gameStateCheck().equals("draw")) {
-            info.setText("!!! IT'S DRAW !!!");
-        }
+        gameStateInfo();
     }
     @FXML
     protected void onB4ButtonClick() {
@@ -152,14 +132,7 @@ public class GameController extends Engine {
 
         B4.setDisable(true);
 
-        if (gameStateCheck().equals("X")) {
-            info.setText("!!! X WON !!!");
-        } else if (gameStateCheck().equals("O")) {
-            info.setText("!!! O WON !!!");
-        }
-        else if (gameStateCheck().equals("draw")) {
-            info.setText("!!! IT'S DRAW !!!");
-        }
+        gameStateInfo();
     }
     @FXML
     protected void onB5ButtonClick() {
@@ -175,14 +148,7 @@ public class GameController extends Engine {
 
         B5.setDisable(true);
 
-        if (gameStateCheck().equals("X")) {
-            info.setText("!!! X WON !!!");
-        } else if (gameStateCheck().equals("O")) {
-            info.setText("!!! O WON !!!");
-        }
-        else if (gameStateCheck().equals("draw")) {
-            info.setText("!!! IT'S DRAW !!!");
-        }
+        gameStateInfo();
     }
     @FXML
     protected void onB6ButtonClick() {
@@ -198,14 +164,7 @@ public class GameController extends Engine {
 
         B6.setDisable(true);
 
-        if (gameStateCheck().equals("X")) {
-            info.setText("!!! X WON !!!");
-        } else if (gameStateCheck().equals("O")) {
-            info.setText("!!! O WON !!!");
-        }
-        else if (gameStateCheck().equals("draw")) {
-            info.setText("!!! IT'S DRAW !!!");
-        }
+        gameStateInfo();
     }
     @FXML
     protected void onB7ButtonClick() {
@@ -221,14 +180,7 @@ public class GameController extends Engine {
 
         B7.setDisable(true);
 
-        if (gameStateCheck().equals("X")) {
-            info.setText("!!! X WON !!!");
-        } else if (gameStateCheck().equals("O")) {
-            info.setText("!!! O WON !!!");
-        }
-        else if (gameStateCheck().equals("draw")) {
-            info.setText("!!! IT'S DRAW !!!");
-        }
+        gameStateInfo();
     }
     @FXML
     protected void onB8ButtonClick() {
@@ -244,13 +196,6 @@ public class GameController extends Engine {
 
         B8.setDisable(true);
 
-        if (gameStateCheck().equals("X")) {
-            info.setText("!!! X WON !!!");
-        } else if (gameStateCheck().equals("O")) {
-            info.setText("!!! O WON !!!");
-        }
-        else if (gameStateCheck().equals("draw")) {
-            info.setText("!!! IT'S DRAW !!!");
-        }
+        gameStateInfo();
     }
 }
