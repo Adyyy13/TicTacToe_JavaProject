@@ -17,12 +17,20 @@
    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="O                    /                    X" />
    <Slider fx:id="slider" blockIncrement="1.0" majorTickUnit="1.0" max="1.0" maxWidth="150.0" minWidth="150.0" minorTickCount="0" prefWidth="150.0" showTickMarks="true" snapToTicks="true">
       <VBox.margin>
-         <Insets bottom="40.0" />
+         <Insets />
       </VBox.margin>
       <opaqueInsets>
          <Insets />
       </opaqueInsets>
    </Slider>
+   <Text fx:id="info" strokeType="OUTSIDE" strokeWidth="0.0" text="The game is on!" textAlignment="CENTER" wrappingWidth="200.0">
+      <font>
+         <Font size="18.0" />
+      </font>
+      <VBox.margin>
+         <Insets />
+      </VBox.margin>
+   </Text>
    <GridPane>
      <columnConstraints>
        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -40,35 +48,35 @@
             <font>
                <Font size="36.0" />
             </font></Button>
-         <Button fx:id="B1" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB1ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="1" GridPane.rowIndex="0" >
+         <Button fx:id="B1" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB1ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="1" GridPane.rowIndex="0">
              <font>
                  <Font size="36.0" />
              </font></Button>
-         <Button fx:id="B2" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB2ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="2" GridPane.rowIndex="0" >
+         <Button fx:id="B2" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB2ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="2" GridPane.rowIndex="0">
              <font>
                  <Font size="36.0" />
              </font></Button>
-         <Button fx:id="B3" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB3ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="0" GridPane.rowIndex="1" >
+         <Button fx:id="B3" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB3ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="0" GridPane.rowIndex="1">
              <font>
                  <Font size="36.0" />
              </font></Button>
-         <Button fx:id="B4" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB4ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="1" GridPane.rowIndex="1" >
+         <Button fx:id="B4" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB4ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="1" GridPane.rowIndex="1">
              <font>
                  <Font size="36.0" />
              </font></Button>
-         <Button fx:id="B5" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB5ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="2" GridPane.rowIndex="1" >
+         <Button fx:id="B5" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB5ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="2" GridPane.rowIndex="1">
              <font>
                  <Font size="36.0" />
              </font></Button>
-         <Button fx:id="B6" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB6ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="0" GridPane.rowIndex="2" >
+         <Button fx:id="B6" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB6ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="0" GridPane.rowIndex="2">
              <font>
                  <Font size="36.0" />
              </font></Button>
-         <Button fx:id="B7" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB7ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="1" GridPane.rowIndex="2" >
+         <Button fx:id="B7" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB7ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="1" GridPane.rowIndex="2">
              <font>
                  <Font size="36.0" />
              </font></Button>
-         <Button fx:id="B8" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB8ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="2" GridPane.rowIndex="2" >
+         <Button fx:id="B8" maxHeight="90" maxWidth="90" minHeight="10" minWidth="10" onAction="#onB8ButtonClick" prefHeight="90" prefWidth="90" text="" GridPane.columnIndex="2" GridPane.rowIndex="2">
              <font>
                  <Font size="36.0" />
              </font></Button>
