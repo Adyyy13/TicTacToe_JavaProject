@@ -5,7 +5,7 @@ package tictactoe.tictactoe;
 public class Engine {
 
 
-        protected static String[] board = new String[9];
+        protected String[] board = new String[9];
 
 
 
